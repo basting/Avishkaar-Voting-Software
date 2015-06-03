@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.avishkar.voting.db.Vote" table="table_vote">
+		<id name="ntnetUsername" column="ntnet_username"/>
+		<property name="updateTime" column="timestamp"/>
+		<property name="rank1IdeaNo" column="rank1_idea_no"/>
+		<property name="rank2IdeaNo" column="rank2_idea_no"/>
+		<property name="rank3IdeaNo" column="rank3_idea_no"/>						
+		<property name="hostAddr" column="host_addr"/>						
+	</class>	
+</hibernate-mapping>
